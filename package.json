@@ -17,9 +17,9 @@
     "setup": "./node_modules/.bin/node-lambda setup",
     "test": "./node_modules/.bin/node-lambda run",
     "package": "./node_modules/.bin/node-lambda package",
-    "deploy": "./node_modules/.bin/node-lambda deploy"
+    "deploy": "./node_modules/.bin/node-lambda deploy -p true"
   },
   "devDependencies": {
-    "node-lambda": "^0.9.0"
+    "node-lambda": "^0.17.0"
   }
 }
